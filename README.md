@@ -34,34 +34,17 @@
 ## 📁 Folder Structure
 
 12MegaBlog/
-├── public/
-├── src/
-│ ├── appwrite/ # Appwrite SDK and service files
-│ │ └── auth.js
-│ ├── components/ # UI components
-│ │ ├── container/
-│ │ ├── Footer/
-│ │ ├── Header/
-│ │ └── post-form/
-│ ├── conf/ # Configuration file
-│ │ └── conf.js
-│ ├── pages/ # Route-mapped pages
-│ │ ├── Home.jsx
-│ │ ├── AllPosts.jsx
-│ │ ├── AddPost.jsx
-│ │ ├── EditPost.jsx
-│ │ ├── Post.jsx
-│ │ ├── Login.jsx
-│ │ └── Signup.jsx
-│ ├── store/ # Redux store and slices
-│ │ ├── store.js
-│ │ └── authSlice.js
-│ ├── App.jsx
-│ ├── App.css
-│ └── main.jsx
-├── package.json
-├── vite.config.js
-└── README.md
+├── components/
+├── pages/
+├── store/
+├── appwrite/
+├── conf/
+├── App.jsx
+└── main.jsx
+
+yaml
+Copy code
+
 
 ---
 
@@ -112,13 +95,10 @@ Live Site 👉 https://megablog-two.vercel.app
 ---
 
 
-## 🙋‍♂️ Author
+### 🙋‍♂️ Author
 
-- Made with ❤️ by Venu
-- 🎓 B.Tech CSE | Passionate Web Developer | Aspiring MAANG Engineer
-📫 [Connect on LinkedIn](www.linkedin.com/in/
-venu-chinthakunta-2544a732a
-)
+Made with ❤️ by **Venu**  
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/venu-chinthakunta-2544a732a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 ---
 
 ## 📄 License
