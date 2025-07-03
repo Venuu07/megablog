@@ -34,34 +34,34 @@
 ## 📁 Folder Structure
 
 12MegaBlog/
-├── 12MegaBlog/             ← actual source root
-│   ├── public/             ← static files (favicon, index.html)
-│   ├── src/
-│   │   ├── appwrite/       ← AppWrite SDK & auth helper
-│   │   │   └── auth.js
-│   │   ├── components/     ← reusable UI bits
-│   │   │   ├── container/  │   Layout helper (Container.jsx)
-│   │   │   ├── Footer/     │   Footer.jsx
-│   │   │   ├── Header/     │   Header.jsx & LogoutBtn.jsx
-│   │   │   └── post-form/  │   PostForm.jsx
-│   │   ├── conf/           ← app configuration constants
-│   │   │   └── conf.js
-│   │   ├── pages/          ← “screens” mapped to routes
-│   │   │   ├── Home.jsx
-│   │   │   ├── AllPosts.jsx
-│   │   │   ├── AddPost.jsx
-│   │   │   ├── EditPost.jsx
-│   │   │   ├── Post.jsx
-│   │   │   ├── Login.jsx
-│   │   │   └── Signup.jsx
-│   │   ├── store/          ← Redux Toolkit store and slices
-│   │   │   ├── store.js    │   configureStore, root reducer
-│   │   │   └── authSlice.js│   auth state/actions
-│   │   ├── App.jsx         ← root component (layout + auth check)
-│   │   ├── App.css         ← global styles (Tailwind + custom)
-│   │   └── index.jsx       ← ReactDOM.render + Provider + Router
-│   ├── package.json
-│   └── vite.config.js
+├── public/
+├── src/
+│ ├── appwrite/ # Appwrite SDK and service files
+│ │ └── auth.js
+│ ├── components/ # UI components
+│ │ ├── container/
+│ │ ├── Footer/
+│ │ ├── Header/
+│ │ └── post-form/
+│ ├── conf/ # Configuration file
+│ │ └── conf.js
+│ ├── pages/ # Route-mapped pages
+│ │ ├── Home.jsx
+│ │ ├── AllPosts.jsx
+│ │ ├── AddPost.jsx
+│ │ ├── EditPost.jsx
+│ │ ├── Post.jsx
+│ │ ├── Login.jsx
+│ │ └── Signup.jsx
+│ ├── store/ # Redux store and slices
+│ │ ├── store.js
+│ │ └── authSlice.js
+│ ├── App.jsx
+│ ├── App.css
+│ └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
 
 ---
 
@@ -113,14 +113,15 @@ Live Site 👉 https://megablog-two.vercel.app
 
 
 ## 🙋‍♂️ Author
-Made with ❤️ by Venu
-🎓 B.Tech CSE | Passionate Web Developer | Aspiring MAANG Engineer
+
+- Made with ❤️ by Venu
+- 🎓 B.Tech CSE | Passionate Web Developer | Aspiring MAANG Engineer
 📫 [Connect on LinkedIn](www.linkedin.com/in/
 venu-chinthakunta-2544a732a
 )
 ---
 
 ## 📄 License
----
 
 This project is open source and free to use under the [MIT License](LICENSE).
+---
